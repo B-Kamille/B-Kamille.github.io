@@ -37,7 +37,7 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -63,8 +63,8 @@ comments:
     lang                 : # "en" (default)
     lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch               : "master"
+    endpoint             : "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -340,14 +340,3 @@ archive:
   layout: archive
   permalink: /posts/
 
-staticman:
-  allowedFields: ["name", "email", "message", "date"]  # 允许提交的字段
-  branch: "main"  # 你的仓库分支（默认 main/master）
-  commitMessage: "New guestbook entry"  # Git 提交信息
-  filename: "comment-{@timestamp}"  # 存储格式（如 comment-123456789.yml）
-  format: "yaml"  # 或 "json"
-  moderation: false  # 是否手动审核（true 需配置 webhook）
-  path: "_data/comments/{options.slug}"  # 存储路径（按页面分类）
-  requiredFields: ["name", "message"]  # 必填字段
-  transforms:
-    email: md5  # 邮箱转 MD5 哈希（保护隐私）
