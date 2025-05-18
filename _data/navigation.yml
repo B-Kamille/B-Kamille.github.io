@@ -6,8 +6,8 @@ main:
     url: /categories/
   - title: "标签"
     url: /tags/
-  - title: "留言板"
-    url: /guestbook/
+  #- title: "留言板"
+  #  url: /guestbook/
   #- title: "集合"
   #  url: /collection-archive/
   - title: "关于"
