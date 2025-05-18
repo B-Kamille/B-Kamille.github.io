@@ -1,9 +1,9 @@
 ---
 title: "留言板"
-permalink: /guest-pages/
+permalink: /guestbook/
 layout: single
 staticman: true  # 启用 Staticman
-staticman_slug: "guest-pages"  # 用于分类存储（对应 _data/comments/guest-pages/）
+staticman_slug: "guestbook"  # 用于分类存储（对应 _data/comments/guestbook/）
 ---
 
 ## ✍️ 欢迎留言！
