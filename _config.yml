@@ -18,11 +18,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "zh-CN"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "LieutenantCarrot的个人网站"
+title                    : "Kamille的个人网站"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "LieutenantCarrot的个人网站"
-description              : "LieutenantCarrot的个人网站"
+name                     : "Kamille的个人网站"
+description              : "Kamille的个人网站"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -117,9 +117,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "LieutenantCarrot"
+  name             : "Kamille"
   avatar           : "/assets/bio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "讨厌胡萝卜"
+  bio              : "Kamille是男子汉的名字"
   location         : "中国 浙江/U.S. Chapel Hill"
   email            :
   links:
