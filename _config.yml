@@ -16,7 +16,6 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.0"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-katex: true
 locale                   : "zh-CN"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Kamille的个人网站"
