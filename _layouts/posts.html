@@ -15,6 +15,10 @@ layout: archive
   {% endfor %}
 </ul>
 
+{% assign words = content | strip_html | strip_newlines | remove: " " | size %}
+{% assign read_time = words | divided_by: 300 | plus: 1 %}
+<p>{{ words }} 字 · 预计阅读 {{ read_time }} 分钟</p>
+
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
