@@ -1,7 +1,7 @@
 ---
 title: "关于"                 # 页面标题
 layout: single                # 使用单栏布局
-permalink: /about/            # 页面URL
+# permalink: /about/            # 页面URL
 toc: false         # 显示目录（可选）
 toc_sticky: true  
 author_profile: true
