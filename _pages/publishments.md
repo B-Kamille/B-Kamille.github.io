@@ -1,3 +1,4 @@
+permalink: /publishments/
 layout: home
 author_profile: true
 ---
