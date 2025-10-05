@@ -338,6 +338,13 @@ defaults:
       related: true
       header:
         overlay_image: /assets/background.jpg  # 你的背景图路径
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      header:
+        overlay_image: /assets/background.jpg
+
 archive:
   enabled: true
   layout: archive
