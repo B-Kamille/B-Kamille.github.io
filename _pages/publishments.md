@@ -2,6 +2,7 @@
 layout: home
 title: "全部发布"
 author_profile: true
+permalink: /publishments/
 pagination:
   enabled: true
   per_page: 5
