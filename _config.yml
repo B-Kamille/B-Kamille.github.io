@@ -245,11 +245,11 @@ paginate_path: "/publishments/page:num"
 #   for configuration details
 pagination:
   # Set enabled to true to use paginate v2
-  # enabled: true
+  enabled: true
   debug: false
   collection: 'posts'
   per_page: 5
-  permalink: '/page/:num/'
+  permalink: '/publishments/page/:num/'
   title: ':title - page :num'
   limit: 0
   sort_field: 'date'
