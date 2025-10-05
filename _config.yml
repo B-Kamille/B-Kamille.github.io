@@ -238,10 +238,6 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
     
 # Pagination with jekyll-paginate
 
-plugins:
-  - jekyll-paginate-v2
-pagination:
-  enabled: true
 
 # Pagination with jekyll-paginate-v2
 # See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
@@ -251,7 +247,7 @@ pagination:
   # enabled: true
   debug: false
   collection: 'posts'
-  per_page: 10
+  per_page: 5
   permalink: '/page/:num/'
   title: ':title - page :num'
   limit: 0
