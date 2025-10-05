@@ -1,6 +1,6 @@
 ---
-title: "发布"
-permalink: /publishments/
+#title: "发布"
+#permalink: /publishments/
 layout: home
 author_profile: true
 ---
