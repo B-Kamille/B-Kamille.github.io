@@ -336,6 +336,8 @@ defaults:
       comments: true
       share: false
       related: true
+      header:
+        overlay_image: /assets/background.jpg  # 你的背景图路径
 archive:
   enabled: true
   layout: archive
