@@ -1,8 +1,8 @@
 
 main:
+  #- title: "发布"
+  #  url: /publishments/
   - title: "发布"
-    url: /publishments/
-  - title: "年份"
     url: /year-archive/
   - title: "分类"
     url: /categories/
