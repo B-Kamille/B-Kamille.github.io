@@ -31,4 +31,4 @@ I Feel Deeply Discouraged and Extremely Depressed.
 * 有一种很奇怪的心理，越是心情沮丧，越是想折磨自己，想每天都跑到Swain一个人待着，因为Swain没有家里舒服，我现在也不想把新家布置地很舒服。唯一想做的事情就是工作，工作到心脏疼和睡眠不足，但我也没那么害怕，也没别的事可以做。
 * GPT告诉我说这是一种自我惩罚和试图获得控制感的方式，我觉得说得不错。社交，娱乐，科研，我好像都没法掌控，不停地失败，一边责备自己，一边不停地不得不一直麻烦到其他人。我觉得什么都做不到，所以折磨自己可能是一种让我感受到我依然存在的方式。当然我也无数次地想过那个终极问题——彻底放弃所有的我无法掌控的事情，包括我自己。
 
-## I Feel Deeply Discouraged and Extremely Depressed.
+# I Feel Deeply Discouraged and Extremely Depressed.
